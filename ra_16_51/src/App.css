@@ -1,0 +1,53 @@
+.App {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.prolog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-header {
+  flex-basis: auto;
+}
+
+.ad {
+  flex-basis: 0;
+  padding: 8px;
+}
+
+.rates {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rate {
+  padding: 5px;
+}
+
+.rate-span {
+  padding: 2px;
+}
+
+.search-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form {
+  display: flex;
+  margin-top: 40px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columns > * {
+  box-sizing: border-box;
+  max-width: 280px;
+  padding: 5px;
+}
